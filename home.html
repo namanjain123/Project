@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <title>Home</title>
+    <style>
+        body{
+
+            margin: 0;
+            height: 800px;
+        }
+        .a2{
+            text-align: center;
+        }
+        #code{
+            font-family:Arial, Helvetica, sans-serif;
+            text-shadow: gray 4px 4px 4px;
+            
+        }
+        #name{
+            font-family:initial;
+        }
+        #start{
+            font-size:125%;
+            border: solid 2px ;
+            padding:5px;
+            text-decoration: none;
+            
+        }
+        #start:hover{
+            color:white;
+            background-color: black;
+        }
+
+        .side{
+            width:fit-content;
+            display: block;
+        }
+
+        .tab {
+        float: right;
+        border: 1px solid lightgrey;
+        background-color: whitesmoke;
+        width: 15%;
+        height: 300px;
+        }
+
+/* Style the buttons inside the tab */
+.tab a {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab a:hover {
+  background-color: gainsboro;
+}
+/*new code for drop down menu*/
+        .techfont{
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+ul li {display: inline-block;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li {
+  background: inherit;
+  display: block;
+}
+ul li ul li a {display:block !important;}
+ul li ul li:hover {background: #696969;}
+
+
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-default techfont custom-navbar">
+      <div class="containe">
+        <ul class="nav nav-pills">
+          <li class="nav-items"><a href="#"> Home</a></li>
+          <li class="nav-items"><a href="#">Contacts</a></li>
+
+       </ul>
+      </div>
+    </nav>
+    <br>
+    <br>
+    
+    <div class="tab">
+            <a class="tablinks" href="#" id="defaultOpen">Introduction to C</a>
+            <a class="tablinks" href="#">Compiler</a>
+            <a class="tablinks" href="#">Structure of C Language</a>
+            <a class="tablinks" href="#">Identifiers</a>
+            <a class="tablinks" href="#">Data Type</a>
+            <a class="tablinks" href="#">Operators</a>
+            <a class="tablinks" href="#">Input/Output Functions</a>
+            <a class="tablinks" href="#">Control Statements</a>
+            <a class="tablinks" href="#">Loop</a>
+            <a class="tablinks" href="#">Array</a>
+    </div>
+    
+
+    <article class="a1">
+        <section>
+            <br><h2>What is Programming?</h2><br>
+            <p>Computer programming refers to a process of designing a set of instructions to tell a computer how to accomplish some specific task.<br>This is done by implementing algorithms in a particular programming language(also known as <strong>coding</strong>).</p>
+        </section><br><br>
+    </article>
+    <article class="a2">
+            <br><h1 id="code"><strong>Let's Start to Code</strong></h1>
+            <a id="start" href="#">START</a>
+    </article>   
+</body>
+</html>
